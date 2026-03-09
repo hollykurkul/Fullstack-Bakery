@@ -1,0 +1,101 @@
+h1 {
+  color: blueviolet;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+}
+.brand {
+  color: rgb(172, 90, 13);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  display: flex;
+}
+a {
+  color: white;
+  background-color: blueviolet;
+  padding: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3ch;
+}
+
+.menus {
+  display: flex;
+  gap: 1ch;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+}
+
+.bakery {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: rgb(246, 219, 246);
+}
+
+.testimonial {
+  background-color: lightgray;
+  border-color: darkgrey;
+  border-radius: 0.5ch;
+  border-style: dashed;
+}
+
+.lists {
+  display: flex;
+  gap: 3ch;
+  flex-flow: column wrap;
+  color: white;
+  border-radius: 0.5ch;
+}
+#one {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+#two {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+#three {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+#four {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+#five {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+footer {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-around;
+  background-color: white;
+  color: blueviolet;
+}
